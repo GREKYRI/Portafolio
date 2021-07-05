@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family0&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+::-webkit-scrollbar{
+    width: 0;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+*{
+    box-sizing: border-box;
+    background-color:#fcb045;
+}
+/*
+#barra{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background: linear-gradient(to top, #fcb045, #fd1d1d,#833ab4);
+}
+*/
+#subtÃ­tulo{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+#texto{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    color:#ffffff;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    width: 300px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 20px;
+    line-height: 60px;
+    transition: 0.5s;
+    text-align: center;
+}
+h2:hover{
+    background: #ec0b36 url(pixel.png);
+    transition-delay: 0.8s;
+    background-size: 300px;
+    animation: animate 0.8s steps(10) forwards;
+}
+@keyframes animate{
+    0%{
+        background-position-y:0;
+    }
+    100%{
+        background-position-y:-710px;
+    }
+}
+.box-1{
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+}
+.container {
+    position: absolute;
+    width: 100%;
+    padding-left: 150px;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 75px;
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 5%;
+    background-color: transparent;
+}
+
+.t-stroke{
+    padding-right: 10%;
+}
+.t-shadow {
+    text-shadow: 4.75px 4.75px #ec0b36 ;
+    
+}
+.perfil{
+    background-position: center;
+    align-items: center;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 50%;
+    width: 25%;
+    display: block;
+    margin: auto;
+}
